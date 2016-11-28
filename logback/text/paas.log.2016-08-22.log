@@ -1,0 +1,208 @@
+2016-08-22 19:28:18.589 [main] INFO  number.Start - Starting Start on zhoutao-PC with PID 700 (D:\office\OSChinaWorkSpace\Number\target\classes started by zhoutao in D:\office\OSChinaWorkSpace\Number)
+2016-08-22 19:28:18.611 [main] INFO  number.Start - No profiles are active
+2016-08-22 19:28:18.752 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68746f22: startup date [Mon Aug 22 19:28:18 CST 2016]; root of context hierarchy
+2016-08-22 19:28:18.967 [pool-1-thread-1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2016-08-22 19:28:20.655 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-08-22 19:28:21.801 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf1b0551] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-08-22 19:28:23.032 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8082 (http)
+2016-08-22 19:28:23.057 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2016-08-22 19:28:23.059 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.28
+2016-08-22 19:28:23.553 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-08-22 19:28:23.560 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2016-08-22 19:28:23.561 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4808 ms
+2016-08-22 19:28:24.193 [localhost-startStop-1] INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-22 19:28:24.201 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-22 19:28:24.201 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-22 19:28:24.202 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-22 19:28:24.202 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-22 19:28:24.828 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-08-22 19:28:24.845 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-08-22 19:28:25.058 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2016-08-22 19:28:25.061 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-08-22 19:28:25.064 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-08-22 19:28:25.547 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-22 19:28:26.109 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-08-22 19:28:26.396 [main] INFO  o.h.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-22 19:28:26.735 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-08-22 19:28:26.735 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-08-22 19:28:26.738 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-08-22 19:28:26.768 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: number.number_of_car
+2016-08-22 19:28:26.768 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [province, city, count, county, company, id, create_date, car_type]
+2016-08-22 19:28:26.768 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-08-22 19:28:26.769 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-08-22 19:28:26.771 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-08-22 19:28:27.510 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68746f22: startup date [Mon Aug 22 19:28:18 CST 2016]; root of context hierarchy
+2016-08-22 19:28:27.665 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto java.lang.String number.controller.NumberOfCarController.home()
+2016-08-22 19:28:27.667 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String number.controller.NumberOfCarController.login(javax.servlet.http.HttpServletRequest)
+2016-08-22 19:28:27.671 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-22 19:28:27.671 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-08-22 19:28:27.730 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 19:28:27.730 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 19:28:27.807 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 19:28:28.464 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2016-08-22 19:28:28.522 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2016-08-22 19:28:28.555 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2016-08-22 19:28:28.587 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2016-08-22 19:28:28.655 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8082 (http)
+2016-08-22 19:28:28.667 [main] INFO  number.Start - Started Start in 10.847 seconds (JVM running for 13.662)
+2016-08-22 19:29:39.522 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-08-22 19:29:39.522 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2016-08-22 19:29:39.577 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2016-08-22 20:50:50.123 [main] INFO  number.Start - Starting Start on zhoutao-PC with PID 6080 (D:\office\OSChinaWorkSpace\Number\target\classes started by zhoutao in D:\office\OSChinaWorkSpace\Number)
+2016-08-22 20:50:50.127 [main] INFO  number.Start - No profiles are active
+2016-08-22 20:50:50.145 [pool-1-thread-1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2016-08-22 20:50:50.262 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117159c0: startup date [Mon Aug 22 20:50:50 CST 2016]; root of context hierarchy
+2016-08-22 20:50:51.936 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-08-22 20:50:53.038 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d4e83a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-08-22 20:50:53.965 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8082 (http)
+2016-08-22 20:50:53.987 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2016-08-22 20:50:53.988 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.28
+2016-08-22 20:50:54.405 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-08-22 20:50:54.411 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2016-08-22 20:50:54.411 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4149 ms
+2016-08-22 20:50:55.076 [localhost-startStop-1] INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-22 20:50:55.084 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-22 20:50:55.084 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-22 20:50:55.085 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-22 20:50:55.085 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-22 20:50:55.669 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-08-22 20:50:55.687 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-08-22 20:50:55.822 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2016-08-22 20:50:55.825 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-08-22 20:50:55.828 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-08-22 20:50:56.252 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-22 20:50:56.723 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-08-22 20:50:57.007 [main] INFO  o.h.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-22 20:50:57.311 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-08-22 20:50:57.311 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-08-22 20:50:57.314 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-08-22 20:50:57.342 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: number.number_of_car
+2016-08-22 20:50:57.342 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [province, city, count, county, company, id, create_date, car_type]
+2016-08-22 20:50:57.342 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-08-22 20:50:57.342 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-08-22 20:50:57.344 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-08-22 20:50:58.068 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117159c0: startup date [Mon Aug 22 20:50:50 CST 2016]; root of context hierarchy
+2016-08-22 20:50:58.195 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save.do]}" onto public java.lang.String number.controller.NumberOfCarController.save(number.entry.NumberOfCar)
+2016-08-22 20:50:58.196 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String number.controller.NumberOfCarController.login(javax.servlet.http.HttpServletRequest)
+2016-08-22 20:50:58.199 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-22 20:50:58.200 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-08-22 20:50:58.273 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 20:50:58.273 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 20:50:58.345 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 20:50:58.958 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2016-08-22 20:50:59.011 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2016-08-22 20:50:59.030 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2016-08-22 20:50:59.052 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2016-08-22 20:50:59.123 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8082 (http)
+2016-08-22 20:50:59.135 [main] INFO  number.Start - Started Start in 9.898 seconds (JVM running for 10.645)
+2016-08-22 20:51:08.703 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-08-22 20:51:08.705 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2016-08-22 20:51:08.737 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2016-08-22 20:58:56.789 [main] INFO  number.Start - Starting Start on zhoutao-PC with PID 4200 (D:\office\OSChinaWorkSpace\Number\target\classes started by zhoutao in D:\office\OSChinaWorkSpace\Number)
+2016-08-22 20:58:56.802 [main] INFO  number.Start - No profiles are active
+2016-08-22 20:58:56.934 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54e041a4: startup date [Mon Aug 22 20:58:56 CST 2016]; root of context hierarchy
+2016-08-22 20:58:56.976 [pool-1-thread-1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2016-08-22 20:58:58.688 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-08-22 20:58:59.773 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf1b0551] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-08-22 20:59:00.543 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8082 (http)
+2016-08-22 20:59:00.566 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2016-08-22 20:59:00.568 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.28
+2016-08-22 20:59:00.994 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-08-22 20:59:00.999 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2016-08-22 20:59:00.999 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4065 ms
+2016-08-22 20:59:01.626 [localhost-startStop-1] INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-22 20:59:01.636 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-22 20:59:01.637 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-22 20:59:01.637 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-22 20:59:01.638 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-22 20:59:02.170 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-08-22 20:59:02.187 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-08-22 20:59:02.331 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2016-08-22 20:59:02.335 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-08-22 20:59:02.337 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-08-22 20:59:02.853 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-22 20:59:03.868 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-08-22 20:59:04.091 [main] INFO  o.h.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-22 20:59:04.549 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-08-22 20:59:04.550 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-08-22 20:59:04.553 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-08-22 20:59:04.595 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: number.number_of_car
+2016-08-22 20:59:04.595 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [province, city, count, county, company, id, create_date, car_type]
+2016-08-22 20:59:04.595 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-08-22 20:59:04.596 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-08-22 20:59:04.598 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-08-22 20:59:05.402 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54e041a4: startup date [Mon Aug 22 20:58:56 CST 2016]; root of context hierarchy
+2016-08-22 20:59:05.546 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save.do]}" onto public java.lang.String number.controller.NumberOfCarController.save(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+2016-08-22 20:59:05.547 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String number.controller.NumberOfCarController.login(javax.servlet.http.HttpServletRequest)
+2016-08-22 20:59:05.551 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-22 20:59:05.552 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-08-22 20:59:05.616 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 20:59:05.616 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 20:59:05.698 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 20:59:06.357 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2016-08-22 20:59:06.416 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2016-08-22 20:59:06.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2016-08-22 20:59:06.461 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2016-08-22 20:59:06.533 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8082 (http)
+2016-08-22 20:59:06.543 [main] INFO  number.Start - Started Start in 10.551 seconds (JVM running for 11.294)
+2016-08-22 20:59:14.687 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-08-22 20:59:14.687 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2016-08-22 20:59:14.709 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2016-08-22 21:05:45.662 [main] INFO  number.Start - Starting Start on zhoutao-PC with PID 1248 (D:\office\OSChinaWorkSpace\Number\target\classes started by zhoutao in D:\office\OSChinaWorkSpace\Number)
+2016-08-22 21:05:45.668 [main] INFO  number.Start - No profiles are active
+2016-08-22 21:05:45.672 [pool-1-thread-1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2016-08-22 21:05:45.776 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ef82753: startup date [Mon Aug 22 21:05:45 CST 2016]; root of context hierarchy
+2016-08-22 21:05:47.381 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-08-22 21:05:48.422 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d4e83a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-08-22 21:05:49.418 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8082 (http)
+2016-08-22 21:05:49.439 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2016-08-22 21:05:49.441 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.28
+2016-08-22 21:05:49.856 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-08-22 21:05:49.862 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2016-08-22 21:05:49.862 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4086 ms
+2016-08-22 21:05:50.475 [localhost-startStop-1] INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-22 21:05:50.483 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-22 21:05:50.484 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-22 21:05:50.484 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-22 21:05:50.484 [localhost-startStop-1] INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-22 21:05:51.070 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-08-22 21:05:51.086 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-08-22 21:05:51.224 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+2016-08-22 21:05:51.227 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-08-22 21:05:51.230 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-08-22 21:05:51.620 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-22 21:05:52.108 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-08-22 21:05:52.399 [main] INFO  o.h.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-22 21:05:52.705 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-08-22 21:05:52.705 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-08-22 21:05:52.708 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-08-22 21:05:52.735 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: number.number_of_car
+2016-08-22 21:05:52.736 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [province, city, count, county, company, id, create_date, car_type]
+2016-08-22 21:05:52.736 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-08-22 21:05:52.736 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-08-22 21:05:52.738 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-08-22 21:05:53.392 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ef82753: startup date [Mon Aug 22 21:05:45 CST 2016]; root of context hierarchy
+2016-08-22 21:05:53.531 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save.do]}" onto public java.lang.String number.controller.NumberOfCarController.save(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+2016-08-22 21:05:53.533 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String number.controller.NumberOfCarController.login(javax.servlet.http.HttpServletRequest)
+2016-08-22 21:05:53.536 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-22 21:05:53.536 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-08-22 21:05:53.608 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 21:05:53.608 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 21:05:53.685 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-22 21:05:54.281 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2016-08-22 21:05:54.338 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2016-08-22 21:05:54.353 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2016-08-22 21:05:54.374 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2016-08-22 21:05:54.431 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8082 (http)
+2016-08-22 21:05:54.438 [main] INFO  number.Start - Started Start in 9.584 seconds (JVM running for 10.273)
+2016-08-22 21:06:00.199 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-08-22 21:06:00.200 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2016-08-22 21:06:00.226 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
