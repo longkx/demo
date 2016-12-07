@@ -18,7 +18,7 @@
 	
 	<script type="text/javascript">
 	setInterval(function(){
-		var u=['(image/img1.jpg',
+		var u=['(image/img1.png',
 	           'image/img2.png',
 	           'image/img3.png'
 	           ];
