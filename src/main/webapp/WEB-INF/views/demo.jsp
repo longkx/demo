@@ -16,13 +16,13 @@
            <!--  <input type="button" class="btn2" onclick = "checkUser();" value="测试黏连"  /> --> --%>
 	</body>
 	
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 	setInterval(function(){
-		var u=['(image/img1.png',
+		var u=['image/img1.png',
 	           'image/img2.png',
 	           'image/img3.png'
 	           ];
 		document.getElementById("imageId").src = u[parseInt(Math.random()*100)%3];
-	    },3500);
-    </script> -->
+	    },1500);
+    </script>
 </html>
