@@ -39,7 +39,7 @@ public class Demo {
 	 * @return 
 	 * @see
 	 */
-	@RequestMapping("/demo")
+	@RequestMapping("/")
 	public String login(HttpServletRequest request){
 	    
 //	    Date date = new Date();
