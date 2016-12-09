@@ -10,13 +10,6 @@
 	</body>
 	
 	<script type="text/javascript">
-	   /* setInterval(function(){
-		var u=['image/img1.png',
-	           'image/img2.png',
-	           'image/img3.png'
-	           ];
-		document.getElementById("imageId").src = u[parseInt(Math.random()*100)%3];
-	    },1500); */
 	   function image1(){
 		   document.getElementById("imageId").src="image/img1.png";
 	   }
