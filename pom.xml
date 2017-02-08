@@ -8,28 +8,28 @@
             <url>http://code.bonc.com.cn/nexus/content/groups/public</url>
         </repository>
        </repositories>
-        
+
 	  <groupId>demo</groupId>
 	  <artifactId>demo</artifactId>
 	  <packaging>war</packaging>
 	  <version>0.0.1</version>
-	  
+
 	  <name>demo</name>
-	  <url>http://maven.apache.org</url>	
+	  <url>http://maven.apache.org</url>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.3.0.RELEASE</version>
 	</parent>
 	<properties>
-	 	<java.version>1.8</java.version>
+	 	<java.version>1.7</java.version>
 	</properties>
 	<dependencies>
 	    <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -44,13 +44,13 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.7</version>
 		</dependency>
-		
+
 		<dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
         </dependency>
-	  
+
 	    <dependency>
 	      <groupId>junit</groupId>
 	      <artifactId>junit</artifactId>
