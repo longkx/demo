@@ -41,7 +41,7 @@ public class Demo {
 	 * @return
 	 * @see
 	 */
-	@RequestMapping("/")
+	@RequestMapping("/demo")
 	public String login(HttpServletRequest request){
 		return "demo";
 	}
