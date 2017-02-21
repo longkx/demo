@@ -1,1 +1,16 @@
-/target/
+/target
+.metadata
+.metadata/
+.project
+.classpath
+.settings/
+/bin/
+/D:/
+/D:/logback/paas/*.*
+/logback/
+/h2/
+/codetemp/
+.idea
+.idea/*.*
+*.iml
+/pom.xml
