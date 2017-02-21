@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="<%=path %>/js/plugins/jquery-1.11.3.js"></script>
 	<script type="text/javascript">
 	   var ctx = "<%=path%>";
+	   setInterval("scan()",1000);
 	   function scan() {
 	       $.ajax({
 	            url : ctx + "/scan",
