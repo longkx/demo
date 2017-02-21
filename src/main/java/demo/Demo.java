@@ -72,7 +72,6 @@ public class Demo {
 	        System.out.println("========================================================================");
 	        NUM = NUM + 1 ;
 	    }
-	    Log log
         return "number";
 	}
 
