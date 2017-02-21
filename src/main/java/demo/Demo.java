@@ -28,53 +28,54 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Demo {
     @Value("${test.connect.url}")
     private String url ;
-
+    
     @Value("${test.access.account}")
     private int account;
-
+    
     public static Integer NUM = 1;
-
+    
 	/**
 	 * Description: <br>
 	 * 登录页面
 	 * @param request
-	 * @return
+	 * @return 
 	 * @see
 	 */
 	@RequestMapping("/")
 	public String login(HttpServletRequest request){
 		return "demo";
 	}
-
+	
 	@RequestMapping("/scan")
-	public String reflect(HttpServletRequest request) {
+	@ResponseBody
+	public String reflect() {
 	    for (int i=0;i<account;i++) {
 	        Date start = new Date();
 	        visitService();
 	        Date end = new Date();
 	        System.out.println("第"+NUM+"次访问,客户端调用耗时：" + (end.getTime() - start.getTime())+"ms");
 	        System.out.println("========================================================================");
-	        NUM = NUM + 1 ;
+	        NUM = NUM + 1 ;	        
 	    }
-        return "number";
+        return "ok";
 	}
-
-
+	
+	
     @RequestMapping("/dealmethod")
     @ResponseBody
     public String dealMethod() {
         String result="";
         Date start = new Date();
         for (int i=0;i<100;i++) {
-           result = RandomString.getStringRandom(1000);
+           result = RandomString.getStringRandom(1000);  
         }
         Date end = new Date();
         System.out.println("第"+NUM+"次访问,服务端处理耗时：" + (end.getTime() - start.getTime())+"ms");
         NUM = NUM + 1 ;
         return result;
     }
-
-
+	
+	
 	public void visitService() {
         try {
             // 拼凑get请求的URL字串，使用URLEncoder.encode对特殊和不可见字符进行编码
@@ -92,6 +93,6 @@ public class Demo {
         }
         catch (Exception e) {
             e.printStackTrace();
-        }
-	}
+        }	    
+	}  
 }
