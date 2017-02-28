@@ -14,12 +14,16 @@ package demo;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.Inet6Address;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
 import java.net.URL;
 import java.util.Date;
+import java.util.Enumeration;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -40,10 +44,28 @@ public class Demo {
 	 * 登录页面
 	 * @param request
 	 * @return
+	 * @throws SocketException
 	 * @see
 	 */
 	@RequestMapping("/demo")
-	public String login(HttpServletRequest request){
+	public String login(HttpServletRequest request) throws SocketException{
+		Enumeration e1 = (Enumeration) NetworkInterface.getNetworkInterfaces();
+		while (e1.hasMoreElements()) {
+			NetworkInterface ni = (NetworkInterface) e1.nextElement();
+			System.out.print(ni.getName());
+			System.out.print(": ");
+			Enumeration e2 = ni.getInetAddresses();
+			while (e2.hasMoreElements()) {
+				InetAddress ia = (InetAddress) e2.nextElement();
+				if (ia instanceof Inet6Address)
+					continue; // omit IPv6 address
+				System.out.print(ia.getHostAddress());
+				if (e2.hasMoreElements()) {
+					System.out.print(", ");
+				}
+			}
+			System.out.print("\n");
+		}
 		return "demo";
 	}
 
@@ -53,23 +75,22 @@ public class Demo {
 	        Date start = new Date();
 	        visitService();
 	        Date end = new Date();
-			int i1 = 1;
-				System.out.println("# Licensed to the Apache Software Foundation (ASF) under one or more       \n"
-						+ "# contributor license agreements.  See the NOTICE file distributed with    \n"
-						+ "# this work for additional information regarding copyright ownership.      \n"
-						+ "# The ASF licenses this file to You under the Apache License, Version 2.0  \n"
-						+ "# (the \"License\"); you may not use this file except in compliance with     \n"
-						+ "# the License.  You may obtain a copy of the License at                    \n"
-						+ "#                                                                          \n"
-						+ "#     http://www.apache.org/licenses/LICENSE-2.0                           \n"
-						+ "#                                                                          \n"
-						+ "# Unless required by applicable law or agreed to in writing, software      \n"
-						+ "# distributed under the License is distributed on an \"AS IS\" BASIS,        \n"
-						+ "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. \n"
-						+ "# See the License for the specific language governing permissions and      \n"
-						+ "# limitations under the License.                                           \n");
-	        System.out.println("第"+NUM+"次访问,客户端调用耗时：" + (end.getTime() - start.getTime())+"ms");
-	        System.out.println("========================================================================");
+//				System.out.println("# Licensed to the Apache Software Foundation (ASF) under one or more       \n"
+//						+ "# contributor license agreements.  See the NOTICE file distributed with    \n"
+//						+ "# this work for additional information regarding copyright ownership.      \n"
+//						+ "# The ASF licenses this file to You under the Apache License, Version 2.0  \n"
+//						+ "# (the \"License\"); you may not use this file except in compliance with     \n"
+//						+ "# the License.  You may obtain a copy of the License at                    \n"
+//						+ "#                                                                          \n"
+//						+ "#     http://www.apache.org/licenses/LICENSE-2.0                           \n"
+//						+ "#                                                                          \n"
+//						+ "# Unless required by applicable law or agreed to in writing, software      \n"
+//						+ "# distributed under the License is distributed on an \"AS IS\" BASIS,        \n"
+//						+ "# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. \n"
+//						+ "# See the License for the specific language governing permissions and      \n"
+//						+ "# limitations under the License.                                           \n");
+//	        System.out.println("第"+NUM+"次访问,客户端调用耗时：" + (end.getTime() - start.getTime())+"ms");
+//	        System.out.println("========================================================================");
 	        NUM = NUM + 1 ;
 	    }
         return "number";
@@ -82,7 +103,7 @@ public class Demo {
         String result="";
         Date start = new Date();
         for (int i=0;i<100;i++) {
-           result = RandomString.getStringRandom(1000);
+//           result = RandomString.getStringRandom(1000);
         }
         Date end = new Date();
         System.out.println("第"+NUM+"次访问,服务端处理耗时：" + (end.getTime() - start.getTime())+"ms");
