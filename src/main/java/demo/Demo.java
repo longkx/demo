@@ -48,7 +48,7 @@ public class Demo {
 	 * @return
 	 * @see
 	 */
-	@RequestMapping("/demo")
+	@RequestMapping("/")
 	public String login(Model model,HttpServletRequest request){
 		String jdkVersion = System.getProperty("java.version");
 		model.addAttribute("jdkVersion", jdkVersion);
