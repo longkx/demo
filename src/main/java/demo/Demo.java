@@ -25,7 +25,6 @@ import java.util.Enumeration;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -53,11 +52,10 @@ public class Demo {
 	public String login(Model model,HttpServletRequest request){
 		String jdkVersion = System.getProperty("java.version");
 		model.addAttribute("jdkVersion", jdkVersion);
-		Enumeration e1 = null;
+		Enumeration<?> e1 = null;
 		try {
-			e1 = (Enumeration) NetworkInterface.getNetworkInterfaces();
+			e1 = (Enumeration<?>) NetworkInterface.getNetworkInterfaces();
 		} catch (SocketException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		StringBuffer ip = new StringBuffer();
@@ -67,7 +65,7 @@ public class Demo {
 			ip.append(ni.getName());
 			System.out.print(": ");
 			ip.append(": ");
-			Enumeration e2 = ni.getInetAddresses();
+			Enumeration<?> e2 = ni.getInetAddresses();
 			while (e2.hasMoreElements()) {
 				InetAddress ia = (InetAddress) e2.nextElement();
 				if (ia instanceof Inet6Address)
@@ -105,7 +103,6 @@ public class Demo {
 	        Date start = new Date();
 	        visitService();
 	        Date end = new Date();
-			int i1 = 1;
 				System.out.println("# Licensed to the Apache Software Foundation (ASF) under one or more       \n"
 						+ "# contributor license agreements.  See the NOTICE file distributed with    \n"
 						+ "# this work for additional information regarding copyright ownership.      \n"
