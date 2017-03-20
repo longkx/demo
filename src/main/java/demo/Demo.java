@@ -12,6 +12,7 @@
 package demo;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.Inet6Address;
@@ -80,6 +81,20 @@ public class Demo {
 			}
 			ip.append("\n");
 		}
+		System.out.println();
+        CPUTestThread cpuTestThread = new CPUTestThread();
+        for (int i = 0; i < 1; i++) {
+            Thread cpuTest = new Thread(cpuTestThread);
+            cpuTest.start();
+        }
+
+        //Windows Task Manager shows
+        try {
+            Runtime.getRuntime().exec("taskmgr");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
 		model.addAttribute("ip", ip);
 		return "demo";
 	}
